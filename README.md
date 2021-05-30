@@ -48,7 +48,7 @@ Instead of building your own I've made available a pre-built module package for 
 * https://github.com/th0ma7/synology/raw/master/hauppauge/hauppauge955D-SYNOApollolake-DSM622_24922-Kernel_4.4.59-20190520.tar.bz2
 
 ## Preparation
-Using a Ubuntu 18.04 OS to build the updated modules install a few essential packages:
+Using a Ubuntu 20.10 OS to build the updated modules install a few essential packages:
 ```
 $ sudo apt update
 $ sudo apt install build-essential ncurses-dev bc libssl-dev libc6-i386 curl libproc-processtable-perl
@@ -68,10 +68,10 @@ $ mkdir dl/SYNO-Apollolake
 
 Download the toolchain
 * https://sourceforge.net/projects/dsgpl/files/DSM%206.2%20Tool%20Chains/
-```
-$ wget --content-disposition https://sourceforge.net/projects/dsgpl/files/DSM%206.2%20Tool%20Chains/Intel%20x86%20Linux%204.4.59%20%28Apollolake%29/apollolake-gcc493_glibc220_linaro_x86_64-GPL.txz/download -P dl/SYNO-Apollolake/
-```
 
+```
+$ wget --content-disposition https://sourceforge.net/projects/dsgpl/files/Tool%20Chain/DSM%206.2.4%20Tool%20Chains/Intel%20x86%20Linux%204.4.59%20%28Apollolake%29/apollolake-gcc493_glibc220_linaro_x86_64-GPL.txz/download -P dl/SYNO-Apollolake/
+```
 Download the Synology DSM kernel sources:
 * https://sourceforge.net/projects/dsgpl/files/Synology%20NAS%20GPL%20Source/22259branch/
 ```
