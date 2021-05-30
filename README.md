@@ -56,7 +56,7 @@ $ sudo apt install build-essential ncurses-dev bc libssl-dev libc6-i386 curl lib
 
 Clone b-rad-NDi git repository:
 ```
-$ git clone https://github.com/b-rad-NDi/Embedded-MediaDrivers.git
+$ git clone https://github.com/lethalwallabies/Embedded-MediaDrivers.git
 $ cd Embedded-MediaDrivers
 ~/Embedded-MediaDrivers$
 ```
